@@ -350,20 +350,20 @@ const createRestaurantDetailTemplate = (restaurant) => `
   background-color: #3e8e41;
 }
 
-/* Gaya untuk judul */
+/* style untuk judul */
 .customer-review h4 {
   font-size: 28px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Gaya untuk label input */
+/* style untuk label input */
 .customer-review .text-heading {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-/* Gaya untuk label komentar */
+/* style untuk label komentar */
 .customer-review .text-heading.heading-2 {
   margin-top: 20px;
 }

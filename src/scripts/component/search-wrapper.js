@@ -5,6 +5,57 @@ class SearchWrapper extends HTMLElement {
 
   render() {
     this.innerHTML = `
+    <style>
+    /* Style untuk elemen input */
+    .input-group input {
+      border-radius: 4px;
+      border: none;
+      padding: 10px;
+      width: 80%;
+      font-size: 16px;
+    }
+    
+    /* Style untuk elemen button */
+    .input-group button {
+      background-color: #007bff;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Style untuk button ketika dihover */
+    .input-group button:hover {
+      background-color: #0069d9;
+    }
+    
+    /* Style untuk elemen wrapper */
+    .btn-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    /* Style untuk tampilan mobile */
+    @media screen and (max-width: 768px) {
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .input-group input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+    
+    </style>
       <div class="content-wrapper">
         <div class="container">
           <div class="heading">
