@@ -90,10 +90,10 @@ header app-bar .navbar .container .logo a {
 
 .description {
   overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 4; /* number of lines to show */
-      -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 @media (min-width: 768px) {
