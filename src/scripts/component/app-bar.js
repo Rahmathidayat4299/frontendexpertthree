@@ -118,7 +118,7 @@ class AppBar extends HTMLElement {
     <nav id="navigationDrawer" class="app-bar__navigation">
       <ul class="nav-menu">
 	  <li><a href="index.html">Home</a></li>
-      <li><a href="#">Favorite</a></li>
+      <li><a href="#/favorite">Favorite</a></li>
       <li><a href="https://www.linkedin.com/in/rahmat-hidayat-a19419136/">About Us</a></li>
       </ul>
     </nav>

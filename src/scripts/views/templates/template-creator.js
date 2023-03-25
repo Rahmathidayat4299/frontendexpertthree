@@ -402,14 +402,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
           <p class="text-heading">Name</p>
           <input type="text" id="name" required />
           <p class="text-heading heading-2">Comment</p>
-          <textarea
-            name="review"
-            id="review"
-            cols="45"
-            rows="8"
-            maxlength="65525"
-            required
-          ></textarea>
+          <input type="text" id="review" required />
           <button type="submit">Post Comment</button>
         </form>
       </div>
