@@ -59,7 +59,7 @@ class SearchWrapper extends HTMLElement {
       <div class="content-wrapper">
         <div class="container">
           <div class="heading">
-            <h1 class="title-heading">Explore Restaurant</h1>
+            <h1 class="title-heading">Katalog Restaurant</h1>
           </div>
   
           <div class="btn-wrapper">
