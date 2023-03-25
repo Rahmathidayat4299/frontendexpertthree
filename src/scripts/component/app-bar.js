@@ -13,7 +13,7 @@ class AppBar extends HTMLElement {
 */
  
 .app-bar {
-  padding: 8px 16px;
+  padding: 5px 9px;
   background-color: white;
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -90,6 +90,7 @@ class AppBar extends HTMLElement {
 	.app-bar .app-bar__navigation {
 	  position: static;
 	  width: 100%;
+    backgorund-color: #ffff;
 	}
    
 	.app-bar .app-bar__navigation ul li {
@@ -117,7 +118,7 @@ class AppBar extends HTMLElement {
     </div>
     <nav id="navigationDrawer" class="app-bar__navigation">
       <ul class="nav-menu">
-	  <li><a href="index.html">Home</a></li>
+	    <li><a href="index.html">Home</a></li>
       <li><a href="#/favorite">Favorite</a></li>
       <li><a href="https://www.linkedin.com/in/rahmat-hidayat-a19419136/">About Us</a></li>
       </ul>
