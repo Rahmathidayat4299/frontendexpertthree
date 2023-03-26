@@ -147,17 +147,17 @@ const createRestaurantDetailTemplate = (restaurant) => `
 </style>
   <div class="heading-details">
     <div class="pic-detail">
-      <img src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" 
+      <img tabindex="0" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" 
         alt="${restaurant.name}" />
     </div>
     <div class="desc-details">
       <div class="head-detail">
-        <h1 class="title">${restaurant.name}</h1>
+        <h1 tabindex="0" class="title">${restaurant.name}</h1>
       </div>
       <div class="info-details">
         <div class="city-info">
           <i class="bx bxs-city"></i>
-          <p>${restaurant.city}</p>
+          <p> tabindex="0"${restaurant.city}</p>
         </div>
         <div class="address-info">
           <i class="bx bxs-map"></i>
@@ -165,12 +165,12 @@ const createRestaurantDetailTemplate = (restaurant) => `
         </div>
         <div class="rating-info">
           <i class="bx bxs-star" style="color: #ffd700"></i>
-          <p>${restaurant.rating}</p>
+          <p> tabindex="0" ${restaurant.rating}</p>
         </div>
       </div>
       <div class="restaurant-description">
         <h2>Deskripsi</h2>
-        <p>${restaurant.description}</p>
+        <p> tabindex="0" ${restaurant.description}</p>
       </div>
       <div class="category-details">
         <div class="category-item">
@@ -296,6 +296,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
   text-decoration: none;
   font-weight: bold;
   margin-right: 10px;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .comment-share-btn {
@@ -306,6 +308,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .comment-share-btn:hover {
@@ -319,6 +323,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
   margin-top: 20px;
   width: 100%;
   max-width: 600px;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .customer-review input[type="text"],
@@ -329,6 +335,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
   font-size: 16px;
   margin-bottom: 20px;
   background-color: #f2f2f2;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .customer-review textarea {
@@ -341,6 +349,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
   padding: 12px;
   border: none;
   border-radius: 6px;
+  min-width: 44px;
+  min-height: 44px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;

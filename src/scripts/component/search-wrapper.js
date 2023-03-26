@@ -13,6 +13,8 @@ class SearchWrapper extends HTMLElement {
       padding: 10px;
       width: 80%;
       font-size: 16px;
+      min-width: 44px;
+      min-height: 44px;
     }
     
     /* Style untuk elemen button */
@@ -25,6 +27,8 @@ class SearchWrapper extends HTMLElement {
       font-size: 16px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      min-width: 44px;
+      min-height: 44px;
     }
     
     /* Style untuk button ketika dihover */
@@ -47,6 +51,8 @@ class SearchWrapper extends HTMLElement {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-width: 44px;
+        min-height: 44px;
       }
     
       .input-group input {

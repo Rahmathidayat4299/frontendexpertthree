@@ -11,7 +11,18 @@ class AppBar extends HTMLElement {
 	/*
   AppBar
 */
- 
+.app-bar .app-bar__navigation ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-bottom: 5px;
+  width: 100%;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+
 .app-bar {
   padding: 5px 9px;
   background-color: white;
