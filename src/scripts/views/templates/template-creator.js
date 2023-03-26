@@ -23,7 +23,7 @@ const createRestaurantItemTemplate = (restaurant) => `
         </div>
       </div>
       <p class="description">${restaurant.description}</p>
-      <button onclick="document.location='${`/#/detail/${restaurant.id}`}'" >Lihat Selengkapnya</button>
+      <button onclick="document.location='${`/#/detail/${restaurant.id}`}'" " style="min-width: 44px; min-height: 44px;" >Lihat Selengkapnya</button>
     </div>
   </div>
   </section>
