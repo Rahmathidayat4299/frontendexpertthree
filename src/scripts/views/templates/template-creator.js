@@ -157,7 +157,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
       <div class="info-details">
         <div class="city-info">
           <i class="bx bxs-city"></i>
-          <p> tabindex="0"${restaurant.city}</p>
+          <p tabindex="0"> ${restaurant.city}</p>
         </div>
         <div class="address-info">
           <i class="bx bxs-map"></i>
@@ -165,12 +165,12 @@ const createRestaurantDetailTemplate = (restaurant) => `
         </div>
         <div class="rating-info">
           <i class="bx bxs-star" style="color: #ffd700"></i>
-          <p> tabindex="0" ${restaurant.rating}</p>
+          <p tabindex="0">  ${restaurant.rating}</p>
         </div>
       </div>
       <div class="restaurant-description">
         <h2>Deskripsi</h2>
-        <p> tabindex="0" ${restaurant.description}</p>
+        <p tabindex="0">  ${restaurant.description}</p>
       </div>
       <div class="category-details">
         <div class="category-item">
